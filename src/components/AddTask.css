@@ -1,0 +1,32 @@
+/* Styles for the container of the AddTask component */
+.add-task-container {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  margin-bottom: 20px; 
+}
+
+/* Styles for the input field used for entering task description */
+.task-input {
+  padding: 10px; 
+  margin-right: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+}
+
+/* Styles for the button used for adding a task */
+.add-task-button {
+  padding: 10px 20px; 
+  background-color: #00fc08; 
+  color: #fff; 
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer; 
+}
+
+/* Styles for the hover state of the button */
+.add-task-button:hover {
+  background-color: #45a049; 
+}
+
+
